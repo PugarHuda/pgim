@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      lizard-shoot4_0: -1591754694986546192
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
