@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/1 Frames/Frame_09.png.meta
 guid: 9963bba3a72cf3c469eedb2400f7fda6
+========
+guid: a1d35460112151c4a9bf7d34976e76f5
+>>>>>>>> 3e37e279409d9f65d4faafe22c9ebfa02d555baa:Assets/Background/rise.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:

@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/3 Icons/Icons/Icon_04.png.meta
 guid: 535d73440a10a3a4bb102dd32369cdd9
+========
+guid: 90c3fce93e95c084584f404b521e275e
+>>>>>>>> 3e37e279409d9f65d4faafe22c9ebfa02d555baa:Assets/UI/ep_setting.png.meta
 TextureImporter:
   internalIDToNameTable:
   - first:
