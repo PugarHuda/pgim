@@ -1,32 +1,30 @@
 using System.Collections;
 using UnityEngine;
-using TMPro; // Pastikan menggunakan TextMeshPro
+using UnityEngine.UI; // Menggunakan namespace untuk Text Legacy
 
-public class TypewriterEffect : MonoBehaviour
+public class TypewriterEffectLegacy : MonoBehaviour
 {
-    public TMP_Text targetText; // Komponen TMP_Text untuk menampilkan teks
-    public float typingSpeed = 0.05f; // Kecepatan mengetik (dalam detik)
+    [SerializeField] private Text textComponent; // Assign your Legacy Text component here
+    [SerializeField] private float typingSpeed = 0.05f; // Speed of typing in seconds
 
-    private string fullText; // Menyimpan teks lengkap
-    private string currentText = ""; // Menyimpan teks yang sudah ditampilkan
+    private Coroutine typingCoroutine;
 
-    void Start()
+    public void StartTyping(string message)
     {
-        if (targetText != null)
+        if (typingCoroutine != null)
         {
-            fullText = targetText.text; // Simpan teks lengkap
-            targetText.text = ""; // Kosongkan teks awal
-            StartCoroutine(TypeText()); // Mulai efek mengetik
+            StopCoroutine(typingCoroutine);
         }
+        typingCoroutine = StartCoroutine(TypeText(message));
     }
 
-    IEnumerator TypeText()
+    private IEnumerator TypeText(string message)
     {
-        foreach (char c in fullText)
+        textComponent.text = ""; // Clear the text before starting
+        foreach (char letter in message.ToCharArray())
         {
-            currentText += c; // Tambahkan karakter satu per satu
-            targetText.text = currentText; // Perbarui teks yang terlihat
-            yield return new WaitForSeconds(typingSpeed); // Tunggu sesuai kecepatan mengetik
+            textComponent.text += letter;
+            yield return new WaitForSeconds(typingSpeed);
         }
     }
 }
