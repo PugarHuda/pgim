@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: f54d1bd14bd3ca042bd867b519fee8cc
+=======
+<<<<<<<< HEAD:Assets/bat_Sprites.meta
+guid: 5846a03c866aece42a33d408af1cab2d
+========
+guid: f54d1bd14bd3ca042bd867b519fee8cc
+>>>>>>>> 3e37e279409d9f65d4faafe22c9ebfa02d555baa:Assets/TextMesh Pro.meta
+>>>>>>> 0b363a1bffbd031e0f839cba5e61bedeaadec07b
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

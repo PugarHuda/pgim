@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: da63f35213d09f34d9264a6f6b091ad7
+=======
+<<<<<<<< HEAD:Assets/3 Icons/Icons/Icon_05.png.meta
+guid: da63f35213d09f34d9264a6f6b091ad7
+========
+guid: fcf76c2dc92f2ac4090acc046e46994d
+>>>>>>>> 3e37e279409d9f65d4faafe22c9ebfa02d555baa:Assets/UI/bttSS.png.meta
+>>>>>>> 0b363a1bffbd031e0f839cba5e61bedeaadec07b
 TextureImporter:
   internalIDToNameTable:
   - first:

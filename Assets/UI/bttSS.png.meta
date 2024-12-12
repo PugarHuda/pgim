@@ -1,9 +1,17 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/UI/bttSS.png.meta
 guid: fcf76c2dc92f2ac4090acc046e46994d
 ========
 guid: cea2e1dd9f6dba046b63b8d9179a000c
 >>>>>>>> df5c3b74890aea4f923f769c12e7e942fb753a63:Assets/bat_Sprites/bat1.png.meta
+=======
+<<<<<<<< HEAD:Assets/3 Icons/Icons/Icon_05.png.meta
+guid: cfe3ef7da9661954f9c4a12fcd34d654
+========
+guid: fcf76c2dc92f2ac4090acc046e46994d
+>>>>>>>> 3e37e279409d9f65d4faafe22c9ebfa02d555baa:Assets/UI/bttSS.png.meta
+>>>>>>> 0b363a1bffbd031e0f839cba5e61bedeaadec07b
 TextureImporter:
   internalIDToNameTable:
   - first:

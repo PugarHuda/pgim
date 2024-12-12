@@ -1,9 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/level1.unity.meta
 guid: c99001b29120e4e4ba5e115e2a0d99ac
 ========
 guid: be7ee3e8f35b0e6408ed4945fe6a9be0
 >>>>>>>> df5c3b74890aea4f923f769c12e7e942fb753a63:Assets/Scenes/GameScene.unity.meta
+=======
+guid: c99001b29120e4e4ba5e115e2a0d99ac
+>>>>>>> 0b363a1bffbd031e0f839cba5e61bedeaadec07b
 DefaultImporter:
   externalObjects: {}
   userData: 

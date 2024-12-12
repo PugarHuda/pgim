@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Objects/torch.png.meta
 guid: 8222680500a2add4292687849d964283
 TextureImporter:
@@ -7,13 +8,27 @@ TextureImporter:
       213: 7509860518518112746
     second: torch_0
 ========
+=======
+<<<<<<<< HEAD:Assets/1 Frames/Frame_14.png.meta
+>>>>>>> 0b363a1bffbd031e0f839cba5e61bedeaadec07b
 guid: 8aa2aec234a0ec844821072f29019efd
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 1791327122712977108
     second: Frame_14_0
+<<<<<<< HEAD
 >>>>>>>> df5c3b74890aea4f923f769c12e7e942fb753a63:Assets/1 Frames/Frame_14.png.meta
+=======
+========
+guid: 8222680500a2add4292687849d964283
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7509860518518112746
+    second: torch_0
+>>>>>>>> 3e37e279409d9f65d4faafe22c9ebfa02d555baa:Assets/Objects/torch.png.meta
+>>>>>>> 0b363a1bffbd031e0f839cba5e61bedeaadec07b
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,6 +124,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Objects/torch.png.meta
       name: torch_0
       rect:
@@ -117,13 +133,27 @@ TextureImporter:
         y: 0
         width: 28
 ========
+=======
+<<<<<<<< HEAD:Assets/1 Frames/Frame_14.png.meta
+>>>>>>> 0b363a1bffbd031e0f839cba5e61bedeaadec07b
       name: Frame_14_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 18
+<<<<<<< HEAD
 >>>>>>>> df5c3b74890aea4f923f769c12e7e942fb753a63:Assets/1 Frames/Frame_14.png.meta
+=======
+========
+      name: torch_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 28
+>>>>>>>> 3e37e279409d9f65d4faafe22c9ebfa02d555baa:Assets/Objects/torch.png.meta
+>>>>>>> 0b363a1bffbd031e0f839cba5e61bedeaadec07b
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -133,6 +163,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Objects/torch.png.meta
       spriteID: ae1c0074a52683860800000000000000
       internalID: 7509860518518112746
@@ -140,6 +171,15 @@ TextureImporter:
       spriteID: 4de54d9f6821cd810800000000000000
       internalID: 1791327122712977108
 >>>>>>>> df5c3b74890aea4f923f769c12e7e942fb753a63:Assets/1 Frames/Frame_14.png.meta
+=======
+<<<<<<<< HEAD:Assets/1 Frames/Frame_14.png.meta
+      spriteID: 4de54d9f6821cd810800000000000000
+      internalID: 1791327122712977108
+========
+      spriteID: ae1c0074a52683860800000000000000
+      internalID: 7509860518518112746
+>>>>>>>> 3e37e279409d9f65d4faafe22c9ebfa02d555baa:Assets/Objects/torch.png.meta
+>>>>>>> 0b363a1bffbd031e0f839cba5e61bedeaadec07b
       vertices: []
       indices: 
       edges: []
@@ -157,12 +197,22 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:Assets/1 Frames/Frame_14.png.meta
+>>>>>>> 0b363a1bffbd031e0f839cba5e61bedeaadec07b
     nameFileIdTable:
 <<<<<<<< HEAD:Assets/Objects/torch.png.meta
       torch_0: 7509860518518112746
 ========
       Frame_14_0: 1791327122712977108
+<<<<<<< HEAD
 >>>>>>>> df5c3b74890aea4f923f769c12e7e942fb753a63:Assets/1 Frames/Frame_14.png.meta
+=======
+========
+    nameFileIdTable: {}
+>>>>>>>> 3e37e279409d9f65d4faafe22c9ebfa02d555baa:Assets/Objects/torch.png.meta
+>>>>>>> 0b363a1bffbd031e0f839cba5e61bedeaadec07b
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

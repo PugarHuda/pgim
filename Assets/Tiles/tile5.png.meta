@@ -1,11 +1,23 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Tiles/tile5.png.meta
+=======
+<<<<<<<< HEAD:Assets/bat_Sprites/bat3.png.meta
+guid: 78ba554bcb879ea49a007723b63785ed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1999657241764980029
+    second: bat3_0
+========
+>>>>>>> 0b363a1bffbd031e0f839cba5e61bedeaadec07b
 guid: 3084de705c1fad74ca7eeb6ba469283f
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 4754699468955094
     second: tile5_0
+<<<<<<< HEAD
 ========
 guid: 4e9cae080163d534381e44d5aac319f6
 TextureImporter:
@@ -14,6 +26,9 @@ TextureImporter:
       213: 716242653300622383
     second: bat4_0
 >>>>>>>> df5c3b74890aea4f923f769c12e7e942fb753a63:Assets/bat_Sprites/bat4.png.meta
+=======
+>>>>>>>> 3e37e279409d9f65d4faafe22c9ebfa02d555baa:Assets/Tiles/tile5.png.meta
+>>>>>>> 0b363a1bffbd031e0f839cba5e61bedeaadec07b
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,6 +124,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Tiles/tile5.png.meta
       name: tile5_0
       rect:
@@ -119,13 +135,31 @@ TextureImporter:
         height: 48
 ========
       name: bat4_0
+=======
+<<<<<<<< HEAD:Assets/bat_Sprites/bat3.png.meta
+      name: bat3_0
+>>>>>>> 0b363a1bffbd031e0f839cba5e61bedeaadec07b
       rect:
         serializedVersion: 2
         x: 3
         y: 6
+<<<<<<< HEAD
         width: 38
         height: 30
 >>>>>>>> df5c3b74890aea4f923f769c12e7e942fb753a63:Assets/bat_Sprites/bat4.png.meta
+=======
+        width: 34
+        height: 26
+========
+      name: tile5_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 48
+        height: 48
+>>>>>>>> 3e37e279409d9f65d4faafe22c9ebfa02d555baa:Assets/Tiles/tile5.png.meta
+>>>>>>> 0b363a1bffbd031e0f839cba5e61bedeaadec07b
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,6 +168,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Tiles/tile5.png.meta
       spriteID: 6dd5cdcbf54e01000800000000000000
       internalID: 4754699468955094
@@ -141,6 +176,15 @@ TextureImporter:
       spriteID: f2487faf5ea90f900800000000000000
       internalID: 716242653300622383
 >>>>>>>> df5c3b74890aea4f923f769c12e7e942fb753a63:Assets/bat_Sprites/bat4.png.meta
+=======
+<<<<<<<< HEAD:Assets/bat_Sprites/bat3.png.meta
+      spriteID: 3ca9f00555acf34e0800000000000000
+      internalID: -1999657241764980029
+========
+      spriteID: 6dd5cdcbf54e01000800000000000000
+      internalID: 4754699468955094
+>>>>>>>> 3e37e279409d9f65d4faafe22c9ebfa02d555baa:Assets/Tiles/tile5.png.meta
+>>>>>>> 0b363a1bffbd031e0f839cba5e61bedeaadec07b
       vertices: []
       indices: 
       edges: []

@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: d0603b6d5186471b96c778c3949c7ce2
+=======
+<<<<<<<< HEAD:Assets/Sprites.meta
+guid: 99df13ecc0b65604c8262e6f5e942052
+========
+guid: d0603b6d5186471b96c778c3949c7ce2
+>>>>>>>> 3e37e279409d9f65d4faafe22c9ebfa02d555baa:Assets/TextMesh Pro/Sprites.meta
+>>>>>>> 0b363a1bffbd031e0f839cba5e61bedeaadec07b
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

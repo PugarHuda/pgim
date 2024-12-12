@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: b7c2eafbeb04f7848b1beaba4fb3dca4
+=======
+<<<<<<<< HEAD:Assets/player-jump/Crab/Sprites.meta
+guid: b7c2eafbeb04f7848b1beaba4fb3dca4
+========
+guid: 701e577af2ba48b689972d42efb95456
+>>>>>>>> 3e37e279409d9f65d4faafe22c9ebfa02d555baa:Assets/TextMesh Pro/Examples & Extras/Sprites.meta
+>>>>>>> 0b363a1bffbd031e0f839cba5e61bedeaadec07b
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

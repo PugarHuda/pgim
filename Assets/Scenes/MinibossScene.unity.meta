@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Scenes/MinibossScene.unity.meta
 guid: 742fab9d6db8abd489af5de0a9c13c2c
 DefaultImporter:
+=======
+guid: 0613ed8b340b9c345bc6db22e5bc1852
+PrefabImporter:
+>>>>>>> 0b363a1bffbd031e0f839cba5e61bedeaadec07b:Assets/Scripts/TextIntro.prefab.meta
   externalObjects: {}
   userData: 
   assetBundleName: 

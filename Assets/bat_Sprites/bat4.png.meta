@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Tiles/tile5.png.meta
 guid: 3084de705c1fad74ca7eeb6ba469283f
 TextureImporter:
@@ -14,6 +15,14 @@ TextureImporter:
       213: 716242653300622383
     second: bat4_0
 >>>>>>>> df5c3b74890aea4f923f769c12e7e942fb753a63:Assets/bat_Sprites/bat4.png.meta
+=======
+guid: 4e9cae080163d534381e44d5aac319f6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 716242653300622383
+    second: bat4_0
+>>>>>>> 0b363a1bffbd031e0f839cba5e61bedeaadec07b
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,6 +118,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Tiles/tile5.png.meta
       name: tile5_0
       rect:
@@ -118,6 +128,8 @@ TextureImporter:
         width: 48
         height: 48
 ========
+=======
+>>>>>>> 0b363a1bffbd031e0f839cba5e61bedeaadec07b
       name: bat4_0
       rect:
         serializedVersion: 2
@@ -125,7 +137,10 @@ TextureImporter:
         y: 6
         width: 38
         height: 30
+<<<<<<< HEAD
 >>>>>>>> df5c3b74890aea4f923f769c12e7e942fb753a63:Assets/bat_Sprites/bat4.png.meta
+=======
+>>>>>>> 0b363a1bffbd031e0f839cba5e61bedeaadec07b
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,6 +149,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Tiles/tile5.png.meta
       spriteID: 6dd5cdcbf54e01000800000000000000
       internalID: 4754699468955094
@@ -141,6 +157,10 @@ TextureImporter:
       spriteID: f2487faf5ea90f900800000000000000
       internalID: 716242653300622383
 >>>>>>>> df5c3b74890aea4f923f769c12e7e942fb753a63:Assets/bat_Sprites/bat4.png.meta
+=======
+      spriteID: f2487faf5ea90f900800000000000000
+      internalID: 716242653300622383
+>>>>>>> 0b363a1bffbd031e0f839cba5e61bedeaadec07b
       vertices: []
       indices: 
       edges: []
@@ -159,11 +179,15 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Tiles/tile5.png.meta
       tile5_0: 4754699468955094
 ========
       bat4_0: 716242653300622383
 >>>>>>>> df5c3b74890aea4f923f769c12e7e942fb753a63:Assets/bat_Sprites/bat4.png.meta
+=======
+      bat4_0: 716242653300622383
+>>>>>>> 0b363a1bffbd031e0f839cba5e61bedeaadec07b
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,9 +1,17 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Background/rise.png.meta
 guid: a1d35460112151c4a9bf7d34976e76f5
 ========
 guid: c0d41f70af816df4f8d047a10fbf7b94
 >>>>>>>> df5c3b74890aea4f923f769c12e7e942fb753a63:Assets/3 Icons/Buttons2/Button2_02.png.meta
+=======
+<<<<<<<< HEAD:Assets/1 Frames/Frame_09.png.meta
+guid: 0ae4ff6e1ee548143b86825e911fa7ff
+========
+guid: a1d35460112151c4a9bf7d34976e76f5
+>>>>>>>> 3e37e279409d9f65d4faafe22c9ebfa02d555baa:Assets/Background/rise.png.meta
+>>>>>>> 0b363a1bffbd031e0f839cba5e61bedeaadec07b
 TextureImporter:
   internalIDToNameTable:
   - first:
