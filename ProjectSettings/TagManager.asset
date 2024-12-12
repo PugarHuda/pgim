@@ -3,8 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
+<<<<<<< HEAD
   tags:
   - Ground
+=======
+  tags: []
+>>>>>>> df5c3b74890aea4f923f769c12e7e942fb753a63
   layers:
   - Default
   - TransparentFX
@@ -42,5 +46,11 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+<<<<<<< HEAD
+=======
+  - name: New Layer 1
+    uniqueID: 1426084223
+    locked: 0
+>>>>>>> df5c3b74890aea4f923f769c12e7e942fb753a63
   m_RenderingLayers:
   - Default
