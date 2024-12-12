@@ -1043,6 +1043,7 @@ Texture2D:
   m_PlatformBlob: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   image data: 1
   _typelessdata: 00
 =======
@@ -1053,6 +1054,10 @@ Texture2D:
   image data: 1
   _typelessdata: 00
 >>>>>>> 0b363a1bffbd031e0f839cba5e61bedeaadec07b
+=======
+  image data: 1
+  _typelessdata: 00
+>>>>>>> 505f3129326c4862bf8f318d2fa5e9e4132149e4
   m_StreamData:
     serializedVersion: 2
     offset: 0
