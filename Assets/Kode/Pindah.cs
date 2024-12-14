@@ -6,8 +6,11 @@ using UnityEngine.SceneManagement;
 public class Pindah : MonoBehaviour {
     AudioSource adsTombol, adsBacksound;
     AudioClip clTombol, clBacksound;
+      public float introDuration = 5f; // Durasi intro dalam detik
+    public string startScreenSceneName= "StartScreen"; // Nama scene start screen
 
     void Start() {
+         Invoke("LoadStartScreen", introDuration);
         // Tambahkan AudioSource pada gameObject
         adsTombol = gameObject.AddComponent<AudioSource>();
         adsBacksound = gameObject.AddComponent<AudioSource>();
@@ -22,6 +25,9 @@ public class Pindah : MonoBehaviour {
         adsBacksound.Play();
     }
 
+void LoadStartScreen() {
+    SceneManager.LoadScene(startScreenSceneName);
+}
     public void pindah(string tujuan) {
         // Mainkan suara tombol sebelum pindah scene
         if (clTombol != null) {
@@ -30,6 +36,7 @@ public class Pindah : MonoBehaviour {
 
         // Pindah scene setelah suara tombol selesai (opsional, tergantung kebutuhan)
         StartCoroutine(PindahSceneSetelahSuara(tujuan));
+        
     }
 
     private IEnumerator PindahSceneSetelahSuara(string tujuan) {
@@ -40,5 +47,25 @@ public class Pindah : MonoBehaviour {
 
         // Pindah ke scene tujuan
         SceneManager.LoadScene(tujuan);
+    }
+
+     public void play(string level2) {
+        // Mainkan suara tombol sebelum pindah scene
+        if (clTombol != null) {
+            adsTombol.PlayOneShot(clTombol);
+        }
+
+        // Pindah scene setelah suara tombol selesai (opsional, tergantung kebutuhan)
+        StartCoroutine(PindahSceneSetelahSuaraa(level2));
+    }
+
+    private IEnumerator PindahSceneSetelahSuaraa(string level2) {
+        // Tunggu hingga suara tombol selesai
+        if (clTombol != null) {
+            yield return new WaitForSeconds(clTombol.length);
+        }
+
+        // Pindah ke scene tujuan
+        SceneManager.LoadScene(level2);
     }
 }
