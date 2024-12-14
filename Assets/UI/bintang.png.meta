@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bintang_0: 4157631323462952587
+      bintang_1: 2588671565218636485
+      bintang_2: 1549341443867668237
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
