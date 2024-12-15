@@ -2,54 +2,55 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    [Header("Movement Settings")]
-    public float moveSpeed = 5f; // Kecepatan bergerak ke kanan/kiri
-    public float jumpForce = 10f; // Kekuatan lompatan
+    public float moveSpeed = 0.5f;    // Kecepatan gerakan
+    public float jumpForce = 1f;   // Kekuatan lompat
 
-    [Header("Ground Check")]
-    public Transform groundCheck; // Objek GroundCheck (di bawah karakter)
-    public float groundCheckRadius = 0.1f; // Radius deteksi tanah
-    public LayerMask groundLayer; // Layer untuk tanah
-
-    private Rigidbody2D rb; // Komponen Rigidbody2D karakter
-    private bool isGrounded; // Status apakah karakter di tanah
+    private Rigidbody2D rb;
+    private bool isGrounded;
 
     void Start()
     {
-        // Ambil komponen Rigidbody2D
-        rb = GetComponent<Rigidbody2D>();
+        rb = GetComponent<Rigidbody2D>(); // Ambil Rigidbody2D
     }
 
     void Update()
     {
-        // Input gerakan horizontal (kanan/kiri)
+        // Input horizontal untuk gerakan kanan/kiri
         float moveInput = Input.GetAxis("Horizontal");
-        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y); // Menggerakkan karakter
+        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
 
-        // Membalik arah sprite karakter sesuai arah gerakan
-        if (moveInput > 0)
-            transform.localScale = new Vector3(1, 1, 1); // Menghadap kanan
-        else if (moveInput < 0)
-            transform.localScale = new Vector3(-1, 1, 1); // Menghadap kiri
-
-        // Deteksi apakah karakter berada di tanah
-        isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
-        Debug.Log("Is Grounded: " + isGrounded); // Debug log untuk mengetahui status grounded
-
-        // Lompat jika tombol lompat ditekan dan karakter di tanah
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        // Logika membalik karakter sesuai arah gerakan
+        if (moveInput > 0) // Jika bergerak ke kanan
         {
-            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce); // Menambahkan kecepatan vertikal untuk lompat
+            transform.localScale = new Vector3(1, 1, 1); // Menghadap kanan
+        }
+        else if (moveInput < 0) // Jika bergerak ke kiri
+        {
+            transform.localScale = new Vector3(-1, 1, 1); // Menghadap kiri
+        }
+
+        // Lompat jika tombol spasi ditekan dan karakter di tanah
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
     }
 
-    // Visualisasi GroundCheck di Editor
-    void OnDrawGizmosSelected()
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        if (groundCheck != null)
+        // Cek apakah karakter menyentuh tanah
+        if (collision.gameObject.CompareTag("Ground"))
         {
-            Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
+            isGrounded = true;
+        }
+    }
+
+    void OnCollisionExit2D(Collision2D collision)
+    {
+        // Jika karakter tidak lagi menyentuh tanah
+        if (collision.gameObject.CompareTag("Ground"))
+        {
+            isGrounded = false;
         }
     }
 }
