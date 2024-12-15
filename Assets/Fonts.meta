@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/1 Frames.meta
+guid: 893809e20334bad41bf0a128a0ecc124
+========
 guid: d334b7cb06652fc41abcec37264485a6
+>>>>>>>> 3e37e279409d9f65d4faafe22c9ebfa02d555baa:Assets/Fonts.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

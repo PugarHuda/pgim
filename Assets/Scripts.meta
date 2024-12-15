@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/3 Icons.meta
+guid: 4c0a9a6ffca8a9143af140fbfa340f6f
+========
 guid: 7134ff134269743419da34945244dda2
+>>>>>>>> 3e37e279409d9f65d4faafe22c9ebfa02d555baa:Assets/Scripts.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
