@@ -1,0 +1,51 @@
+jawaban Arab bagian c
+
+Ringkasan Jawaban:
+
+Kalimat 1:
+الإسلامُ دِينٌ صَحِيحٌ → Ditambahkan إِنَّ menjadi:
+إِنَّ الإسلامَ دِينٌ صَحِيحٌ
+Perubahan: الإسلامُ (mubtada') menjadi الإسلامَ (isim inna, manshub).
+
+Kalimat 2:
+عَلِيٌّ مَرِيضٌ → Ditambahkan لَكِنَّ menjadi:
+لَكِنَّ عَلِيًّا مَرِيضٌ
+Perubahan: عَلِيٌّ (mubtada') menjadi عَلِيًّا (isim lakinna, manshub).
+
+Kalimat 3:
+الذِّكاءُ ناجِحٌ → Ditambahkan لَعَلَّ menjadi:
+لَعَلَّ الذِّكاءَ ناجِحٌ
+Perubahan: الذِّكاءُ (mubtada') menjadi الذِّكاءَ (isim la‘alla, manshub).
+
+Kalimat 4:
+وَجْهُكَ بَدْرٌ → Ditambahkan إِنَّ menjadi:
+إِنَّ وَجْهَكَ بَدْرٌ
+Perubahan: وَجْهُكَ (mubtada') menjadi وَجْهَكَ (isim inna, manshub).
+
+
+
+
+jawaban Arab bagian B No 3 dan 4
+
+Kalimat 3:
+عائشةُ آكِلَةٌ → Ditambahkan كَانَتْ menjadi:
+كَانَتْ عائشةَ آكِلَةً
+Perubahan: عائشةُ (mubtada') menjadi عائشةَ (isim kaana, manshub).
+
+
+Kalimat 4:
+Kalimat Asli:
+المسلمون صادقون
+
+Dengan Kaana:
+كانَ المُسْلِمُونَ صَادِقِينَ
+*Kaana ditambahkan, khabar menjadi manshub (صادقين).
+
+Dengan Laisa:
+لَيْسَ المُسْلِمُونَ صَادِقِينَ
+*Laisa ditambahkan, khabar menjadi manshub (صادقين).
+
+Perubahan:
+Mubtada' tetap marfu’
+Khabar berubah menjadi manshub.
+
