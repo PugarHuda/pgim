@@ -1,5 +1,14 @@
 using UnityEngine;
 
+public class coin : MonoBehaviour
+{
+    public void Collect()
+    {
+        Debug.Log("Coin collected!");
+        Destroy(gameObject); // Hapus objek setelah dikoleksi
+    }
+}
+
 public class PlayerController : MonoBehaviour
 {
     public float moveSpeed = 0.5f;    // Kecepatan gerakan
@@ -43,7 +52,10 @@ public class PlayerController : MonoBehaviour
         {
             isGrounded = true;
         }
+
+       
     }
+
 
     void OnCollisionExit2D(Collision2D collision)
     {
@@ -51,6 +63,15 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = false;
+        }
+
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision){
+        if (collision.CompareTag("coin"))
+        {
+            collision.GetComponent<Coin>().Collect();
         }
     }
 }
