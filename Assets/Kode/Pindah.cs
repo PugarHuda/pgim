@@ -68,4 +68,8 @@ void LoadStartScreen() {
         // Pindah ke scene tujuan
         SceneManager.LoadScene(level2);
     }
+
+
+    
+
 }
