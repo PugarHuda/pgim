@@ -12,10 +12,19 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScreen.unity
     guid: 032536404e4ba3d479a67c3b0fad8e29
   - enabled: 1
+    path: Assets/Scenes/Setting.unity
+    guid: 320ff1aeaeaaf3e4c9f0ebf80d8a85c7
+  - enabled: 1
     path: Assets/Scenes/level2.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Setting.unity
-    guid: 320ff1aeaeaaf3e4c9f0ebf80d8a85c7
+    path: Assets/Scenes/GameScene.unity
+    guid: c33db11a78fa68646b1c6f5c08257745
+  - enabled: 1
+    path: Assets/Scenes/GameScene 1.unity
+    guid: 041957d4b533afc44b2b08b5de339d89
+  - enabled: 1
+    path: Assets/Scenes/GameScene 2.unity
+    guid: 7d57c738b634c684392323e2b7c1e31e
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
